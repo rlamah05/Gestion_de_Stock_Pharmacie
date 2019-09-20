@@ -1,0 +1,70 @@
+####Locale#####
+locale.fr=Français
+locale.en=English
+####Commons####
+common.dashbord=Tabeau de bord
+common.article=Articles
+common.client=Clients
+common.utilisateur=Utilisateurs
+common.client.commande=Commandes clients
+common.fournisseur=Fournisseurs
+common.fournisseur.commande=Commandes fournisseurs
+common.stock=Stock
+common.vente=Ventes
+common.parametrage=Parametrage
+common.parametrage.utilisateur=Utilisateurs
+common.parametrage.category=Categories
+common.date=Date
+common.code=Code
+common.total=Total
+common.qte=Quantite
+####Errors#######
+errors.msg.403=Erreur 403 Vous n'avez pas les droits pour acceder a cette page
+
+common.nom=Nom
+common.prenom=Prenom
+common.adresse=Adresse
+common.mail=Mail
+common.photo=Photo
+common.actions=Actions
+common.ajouter=Ajouter
+common.modifier=Modifier
+common.supprimer=Supprimer
+common.exporter=Exporter
+common.importer=Importer
+common.enregister=Enregistrer
+common.annuler=Annuler
+common.confirmer=Confirmer
+common.confirm.suppression=Confirmer la suppression
+common.code=Code
+common.designation=Designation
+common.prixUnitHT=Prix unitaire HT
+common.tva=Tva
+common.prixUnitTTC=Prix unitaire TTC
+common.back=Retour
+######## Client ######
+client.liste=Liste des clients
+client.nouveau=Nouveau client
+client.confirm.suppression.msg=Voulez vous vraiment supprimer ce client
+######## Category ######
+category.liste=Liste des categories
+category.nouveau=Nouvelle category
+category.confirm.suppression.msg=Voulez vous vraiment supprimer cette categorie
+######## Fournisseur ######
+fournisseur.liste=Liste des fournisseurs
+fournisseur.nouveau=Nouveau fournisseur
+fournisseur.confirm.suppression.msg=Voulez vous vraiment supprimer ce fournisseur
+######## Article ######
+article.liste=Liste des articles
+article.nouveau=Nouvel article
+article.confirm.suppression.msg=Voulez vous vraiment supprimer cet article
+###### Commande client #######
+commande.client.liste=Liste des commandes
+commande.client.detail=Details de la commande
+commande.client.nouveau=Nouvelle commande
+commande.client.title.nouveau=Commande
+commande.client.article.not.found=L'article cherche n'existe pas
+commande.client.select.client=Selectionner un client
+commande.client.select.client.msfg.erreur=Veuillez selectionner un client
+commande.client.select.client.unexpected.error=Une erreur inattendu est survenue lors de la creation de la commande
+#####Utilisateurs#######

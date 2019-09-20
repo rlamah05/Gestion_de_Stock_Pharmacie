@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<qualifiedTypeNameHistroy>
+<fullyQualifiedTypeName name="java.io.Serializable"/>
+<fullyQualifiedTypeName name="com.stock.mvc.services.IUtilisateurService"/>
+<fullyQualifiedTypeName name="com.stock.mvc.dao.IGenericDao"/>
+<fullyQualifiedTypeName name="com.stock.mvc.dao.impl.GenericDaoImpl"/>
+<fullyQualifiedTypeName name="com.stock.mvc.dao.IRolesDao"/>
+<fullyQualifiedTypeName name="com.stock.mvc.services.IRolesService"/>
+<fullyQualifiedTypeName name="com.stock.mvc.entites.Roles"/>
+<fullyQualifiedTypeName name="com.stock.mvc.entites.Utilisateur"/>
+</qualifiedTypeNameHistroy>

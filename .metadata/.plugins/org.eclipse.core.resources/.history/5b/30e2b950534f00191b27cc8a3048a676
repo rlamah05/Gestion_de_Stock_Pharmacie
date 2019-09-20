@@ -1,0 +1,64 @@
+package com.stock.mvc.services.impl;
+
+import java.util.List;
+
+import com.stock.mvc.entites.Roles;
+import com.stock.mvc.services.IRolesService;
+
+public class RolesServiceImpl implements IRolesService {
+
+	@Override
+	public Roles save(Roles entity) {
+		// TODO Auto-generated method stub
+		return null;
+	}
+
+	@Override
+	public Roles update(Roles entity) {
+		// TODO Auto-generated method stub
+		return null;
+	}
+
+	@Override
+	public List<Roles> selectAll() {
+		// TODO Auto-generated method stub
+		return null;
+	}
+
+	@Override
+	public List<Roles> selectAll(String sortField, String sort) {
+		// TODO Auto-generated method stub
+		return null;
+	}
+
+	@Override
+	public Roles getById(Long id) {
+		// TODO Auto-generated method stub
+		return null;
+	}
+
+	@Override
+	public void remove(Long id) {
+		// TODO Auto-generated method stub
+		
+	}
+
+	@Override
+	public Roles findOne(String paramName, Object paramValue) {
+		// TODO Auto-generated method stub
+		return null;
+	}
+
+	@Override
+	public Roles findOne(String[] paramNames, Object[] paramValues) {
+		// TODO Auto-generated method stub
+		return null;
+	}
+
+	@Override
+	public int findCountBy(String paramName, String paramValue) {
+		// TODO Auto-generated method stub
+		return 0;
+	}
+
+}

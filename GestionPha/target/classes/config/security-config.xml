@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<beans:beans xmlns:s="http://www.springframework.org/schema/security"
+	xmlns:beans="http://www.springframework.org/schema/beans" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+	xsi:schemaLocation="http://www.springframework.org/schema/beans
+								 http://www.springframework.org/schema/beans/spring-beans-3.0.xsd
+								 http://www.springframework.org/schema/security
+								 http://www.springframework.org/schema/security/spring-security-3.2.xsd">
+
+	<s:http auto-config="true">
+		<s:intercept-url pattern="/article/" access="ROLE_ADMIN, ROLE_USER"/>
+		<s:intercept-url pattern="/article/**" access="ROLE_ADMIN"/>
+		<s:intercept-url pattern="/client/" access="ROLE_ADMIN, ROLE_USER"/>
+		<s:intercept-url pattern="/client/**" access="ROLE_ADMIN"/>
+		<s:intercept-url pattern="/fournisseur/" access="ROLE_ADMIN, ROLE_USER"/>
+		<s:intercept-url pattern="/fournisseur/" access="ROLE_ADMIN, ROLE_USER"/>
+		<s:intercept-url pattern="/fournisseur/**" access="ROLE_ADMIN"/>
+		<s:intercept-url pattern="/utilisateur/" access="ROLE_ADMIN"/>
+		<s:intercept-url pattern="/utilisateur/**" access="ROLE_ADMIN"/>
+		
+		<s:form-login login-page="/" default-target-url="/home/" authentication-failure-url="/failedlogin"/>
+		
+		<s:access-denied-handler error-page="/403/"/>
+		
+		<s:logout logout-success-url="/" delete-cookies="JSESSIONID"/>
+	</s:http>
+	
+	<s:authentication-manager>
+		<s:authentication-provider>
+<!-- 			<s:password-encoder hash="md5" /> -->
+			<s:jdbc-user-service data-source-ref="dataSource" 
+				users-by-username-query="select mail, motDePasse, actived from utilisateur where mail=?" 
+				authorities-by-username-query="select u.mail, r.roleName from utilisateur u, roles r where u.idUtilisateur = r.idUtilisateur 
+				and u.mail=?" />
+		</s:authentication-provider>
+	</s:authentication-manager>
+</beans:beans>

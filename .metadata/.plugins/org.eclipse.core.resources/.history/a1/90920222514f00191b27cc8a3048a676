@@ -1,0 +1,5 @@
+package com.stock.mvc.dao;
+
+public interface IRole {
+
+}

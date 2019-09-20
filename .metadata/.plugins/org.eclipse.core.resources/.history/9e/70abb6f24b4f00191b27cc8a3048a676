@@ -1,0 +1,75 @@
+####Locale#####
+locale.fr=Francais
+locale.en=English
+####Commons####
+common.dashbord=Dashbord
+common.article=Products
+common.client=Clients
+common.utilisateur=Users
+common.client.commande=Clients orders
+common.fournisseur=Providers
+common.fournisseur.commande=Providers orders
+common.stock=Stock
+common.vente=Selling
+common.parametrage=Parameters
+common.parametrage.utilisateur=Users
+common.parametrage.category=Cotegories
+common.date=Date
+common.code=Code
+common.total=Total
+common.qte=Quantite
+####Errors#######
+errors.msg.403=Error 403 Access denied for this page
+
+common.nom=Name
+common.prenom=Family name
+common.adresse=Adress
+common.mail=Mail
+common.photo=Image
+common.actions=Actions
+common.ajouter=Add
+common.modifier=Update
+common.supprimer=Delete
+common.exporter=Export
+common.importer=Import
+common.enregister=Save
+common.annuler=Cancel
+common.confirmer=Confirm
+common.confirm.suppression=Confirm delete action
+common.code=Code
+common.designation=Description
+common.prixUnitHT=Unit price HT
+common.tva=Tva
+common.prixUnitTTC=Unit price TTC
+common.back=Retour
+######## Client ######
+client.liste=Clients list
+client.nouveau=New client
+client.confirm.suppression.msg=Do you really want to delete this client
+######## Category ######
+category.liste=Categories list
+category.nouveau=New category
+category.confirm.suppression.msg=Voulez vous vraiment supprimer cette catégorie
+######## Fournisseur ######
+fournisseur.liste=Providers list
+fournisseur.nouveau=New provider
+fournisseur.confirm.suppression.msg=Do you really want to delete this provider
+######## Article ######
+article.liste=Products list
+article.nouveau=New product
+article.confirm.suppression.msg=Do you really want to delete this product
+###### Commande client #######
+commande.client.liste=Liste des commandes
+commande.client.detail=Details de la commande
+commande.client.nouveau=Nouvelle commande
+commande.client.title.nouveau=Commande
+commande.client.article.not.found=Product not found
+commande.client.select.client=Select a client
+commande.client.select.client.msfg.erreur=Please select a client
+commande.client.select.client.unexpected.error=An unexpected error has occured while creating the order
+#####Utilisateurs#######
+common.motDePasse=Pass Word
+common.actived=Actived
+Utilisateur.nouveau=New User
+#####roles#######
+common.roleName=Role

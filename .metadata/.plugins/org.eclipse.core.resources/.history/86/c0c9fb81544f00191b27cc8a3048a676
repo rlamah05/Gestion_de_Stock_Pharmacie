@@ -1,0 +1,55 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<beans xmlns="http://www.springframework.org/schema/beans"
+	xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+	xsi:schemaLocation="http://www.springframework.org/schema/beans http://www.springframework.org/schema/beans/spring-beans.xsd">
+		
+		<bean id="articleDao" class="com.stock.mvc.dao.impl.ArticleDaoImpl" />
+		<bean id="articleService" class="com.stock.mvc.services.impl.ArticleServiceImpl">
+			<property name="dao" ref="articleDao"></property>
+		</bean>
+		<bean id="categoryDao" class="com.stock.mvc.dao.impl.CategoryDaoImpl" />
+		<bean id="categoryService" class="com.stock.mvc.services.impl.CategoryServiceImpl">
+			<property name="dao" ref="categoryDao"></property>
+		</bean>
+		<bean id="clientDao" class="com.stock.mvc.dao.impl.ClientDaoImpl" />
+		<bean id="clientService" class="com.stock.mvc.services.impl.ClientServiceImpl">
+			<property name="dao" ref="clientDao"></property>
+		</bean>
+		<bean id="cmdCltDao" class="com.stock.mvc.dao.impl.CommandeClientDaoImpl" />
+		<bean id="cmdCltService" class="com.stock.mvc.services.impl.CommandeClientServiceImpl">
+			<property name="dao" ref="cmdCltDao"></property>
+		</bean>
+		<bean id="ligneCmdCltDao" class="com.stock.mvc.dao.impl.LigneCommandeClientDaoImpl" />
+		<bean id="ligneCmdCltService" class="com.stock.mvc.services.impl.LigneCommandeClientServiceImpl">
+			<property name="dao" ref="ligneCmdCltDao"></property>
+		</bean>
+		<bean id="ligneVenteDao" class="com.stock.mvc.dao.impl.LigneVenteDaoImpl" />
+		<bean id="ligneVenteService" class="com.stock.mvc.services.impl.LigneVenteServiceImpl">
+			<property name="dao" ref="ligneVenteDao"></property>
+		</bean>
+		<bean id="mvtStkDao" class="com.stock.mvc.dao.impl.MvtStkDaoImpl" />
+		<bean id="mvtStkService" class="com.stock.mvc.services.impl.MvtStkServiceImpl">
+			<property name="dao" ref="mvtStkDao"></property>
+		</bean>
+		<bean id="utilisateurDao" class="com.stock.mvc.dao.impl.UtilisateurDaoImpl" />
+		<bean id="utilisateurService" class="com.stock.mvc.services.impl.UtilisateurServiceImpl">
+			<property name="dao" ref="utilisateurDao"></property>
+		</bean>
+		<bean id="rolesDao" class="com.stock.mvc.dao.impl.RolesDaoImpl" />
+		<bean id="rolesService" class="com.stock.mvc.services.impl.RolesServiceImpl">
+			<property name="dao" ref="rolesDao"></property>
+		</bean>
+		
+		<bean id="venteDao" class="com.stock.mvc.dao.impl.VenteDaoImpl" />
+		<bean id="venteService" class="com.stock.mvc.services.impl.VenteServiceImpl">
+			<property name="dao" ref="venteDao"></property>
+		</bean>
+		
+		<bean id="flickrDao" class="com.stock.mvc.dao.impl.FlickrDaoImpl" />
+		<bean id="flickrService" class="com.stock.mvc.services.impl.FlickrServiceImpl">
+			<property name="dao" ref="flickrDao"></property>
+		</bean>
+		
+		
+		
+</beans>

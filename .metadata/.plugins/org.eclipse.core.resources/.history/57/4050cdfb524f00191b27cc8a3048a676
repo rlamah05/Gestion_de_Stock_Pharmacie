@@ -1,0 +1,5 @@
+package com.stock.mvc.services.impl;
+
+public class RolesServiceImpl {
+
+}
